@@ -7,13 +7,15 @@ The information provided here is also included in the _README_ worksheet in the 
 
 This spreadsheet is licensed under CC BY 4.0.
 
+Author: Joe DeCarolis, in his personal capacity as an analyst.
+
 ## Assumptions
-1. We utilize the capacity buildout plans published by the Public Staff of the NC Utilities Commission
-2. Wherever possible, we use assumptions drawn from the NCUC docket
-3. Where key modeling assumptions are unpublished or redacted, we use non-proprietary sources of data
+1. Capacity buildout plans produced by the Public Staff of the NC Utilities Commission are utilized
+2. Wherever possible, assumptions are drawn from the NCUC docket
+3. Non-proprietary sources of data are used where key modeling assumptions are unpublished or redacted
 
 ## Worksheet Descriptions
-**_Main:_** Includes key assumptions and calculations. Near the top, green cells provide high-level results; tan cells provide key assumptions. Key calculations related to natural gas and nuclear capex begin on Row 21. Generation by technology type is estimated by multiplying installed capacity (drawn from the Public Staff build plans), technology-specific capacity factor, and hours in a year (8,760). Natural gas generation (Column J) is calculated as the difference between load and all other sources of generation (detailed formulation shown beginning in Cell J3). Estimated natural gas cost (Columns M-O) is calculated as the product of natural gas generation, heat rate, projected natural gas prices, and discount rate (detailed formulation shown beginning in Cell J6). Variation in nuclear capital costs (Columns P-R) are the product of new nuclear capacity (drawn from the Public Staff build plans), nuclear capital cost, and discount factor (detailed formulation shown beginning in Cell J10).
+**_Main:_** Includes key assumptions and calculations. Near the top, green cells provide high-level results; tan cells provide key assumptions. Key calculations related to natural gas and nuclear capex begin on Row 21. Generation by technology type is estimated by multiplying installed capacity (based on existing capacity and the Public Staff build plans), technology-specific capacity factor, and hours in a year (8,760). Natural gas generation (Column J) is calculated as the difference between load and all other sources of generation (detailed formulation shown beginning in Cell J3). Estimated natural gas cost (Columns M-O) is calculated as the product of natural gas generation, heat rate, projected natural gas prices, and discount rate (detailed formulation shown beginning in Cell J6). Variation in nuclear capital costs (Columns P-R) are the product of new nuclear capacity (drawn from the Public Staff build plans), nuclear capital cost, and discount factor (detailed formulation shown beginning in Cell J10).
 
 **Note 1:** The calculations above were repeated for two scenarios run by the Public Staff:  "PS 2034 Base" (interim target included) and "NCGA - Base" (interm target removed).
 
